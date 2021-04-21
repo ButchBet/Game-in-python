@@ -5,7 +5,7 @@ pygame.init()
 width = 400
 height = 500
 surface = pygame.display.set_mode((width, height)) #surface
-pygame.display.set_caption('Pygame')
+pygame.display.set_caption('Surface')
 
 ## Working with the colors
 ## Using a class .Color
