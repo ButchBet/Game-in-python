@@ -25,12 +25,16 @@ while True:
         if event.type == pygame.KEYDOWN:
             surface.fill(white)
             if event.key == pygame.K_UP or event.key == pygame.K_w:
+                print(event)
                 y -= 10
             if event.key == pygame.K_LEFT or event.key == pygame.K_a:
+                print(event)
                 x -= 10
             if event.key == pygame.K_DOWN or event.key == pygame.K_s:
+                print(event)
                 y += 10
             if event.key == pygame.K_RIGHT or event.key == pygame.K_d:
+                print(event)
                 x += 10
         rect = pygame.Rect(x, y, 50, 50)
         pygame.draw.rect(surface, red, rect)
