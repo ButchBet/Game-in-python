@@ -9,7 +9,7 @@ surface = pygame.display.set_mode((width, height)) # surface
 pygame.display.set_caption("Key events")
 
 # Create colors 
-white = pygame.Color(0, 0, 0)
+white = pygame.Color(255, 255, 255)
 red = pygame.Color(255, 0, 0)
 
 # Creater the movement helpers
